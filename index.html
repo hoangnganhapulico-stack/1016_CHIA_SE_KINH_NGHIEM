@@ -512,13 +512,14 @@ html, body {
 }
 .award-ico { font-size: clamp(14px,1.8vw,20px); flex-shrink: 0; }
 .award-title {
-  font-size: clamp(13px,1.2vw,13px); font-weight: 700;
+  font-size: clamp(14px,1.3vw,15px); font-weight: 700;
   color: var(--tx); line-height: 1.3;
 }
 .award-desc {
-  font-size: clamp(12px,1.05vw,11.5px); color: var(--gx);
-  line-height: 1.4; margin-top: 2px;
+  font-size: clamp(13px,1.15vw,14px); color: var(--gx);
+  line-height: 1.5; margin-top: 3px;
 }
+.award-desc strong { color: var(--kb); font-weight: 700; }
 
 /* 3S box */
 .s3-box {
@@ -1150,26 +1151,43 @@ html, body {
                 <div class="met-val" style="font-size:clamp(11px,1.2vw,14px);color:var(--gr)">Sữa Tắm OTB + Xịt Muỗi Remos</div>
               </div>
             </div>
-            <div class="sub-label" style="margin-top:4px;">Tiêu chí vinh danh minh bạch</div>
+            <div class="sub-label" style="margin-top:4px;">Hệ thống chấm điểm 3 tiêu chí - minh bạch, đo được</div>
+            <div style="display:grid;grid-template-columns:1fr 1fr 1fr;gap:5px;margin-bottom:4px;">
+              <div style="background:var(--kl);border-radius:6px;padding:6px 8px;text-align:center;border-top:3px solid #e05b7f;">
+                <div style="font-size:clamp(15px,1.6vw,18px);font-weight:800;color:#e05b7f;">40%</div>
+                <div style="font-size:clamp(11px,1vw,12px);font-weight:700;color:var(--tx);line-height:1.2;">% Hoàn Thành Target</div>
+                <div style="font-size:clamp(10px,0.9vw,11px);color:var(--gx);margin-top:2px;">Số bán ÷ Target cá nhân</div>
+              </div>
+              <div style="background:var(--kl);border-radius:6px;padding:6px 8px;text-align:center;border-top:3px solid var(--or);">
+                <div style="font-size:clamp(15px,1.6vw,18px);font-weight:800;color:var(--or);">35%</div>
+                <div style="font-size:clamp(11px,1vw,12px);font-weight:700;color:var(--tx);line-height:1.2;">Số Chai Tuyệt Đối</div>
+                <div style="font-size:clamp(10px,0.9vw,11px);color:var(--gx);margin-top:2px;">Đóng góp vào target team</div>
+              </div>
+              <div style="background:var(--kl);border-radius:6px;padding:6px 8px;text-align:center;border-top:3px solid var(--gr);">
+                <div style="font-size:clamp(15px,1.6vw,18px);font-weight:800;color:var(--gr);">25%</div>
+                <div style="font-size:clamp(11px,1vw,12px);font-weight:700;color:var(--tx);line-height:1.2;">Tỷ Lệ Chốt Đơn</div>
+                <div style="font-size:clamp(10px,0.9vw,11px);color:var(--gx);margin-top:2px;">Thuyết phục / lượng KH</div>
+              </div>
+            </div>
             <div class="award">
               <div class="award-ico">🥇</div>
               <div>
                 <div class="award-title">Nhân viên xuất sắc nhất</div>
-                <div class="award-desc">Đạt % hoàn thành cao nhất so với target cá nhân được phân bổ theo hệ số ca</div>
+                <div class="award-desc"><strong>Tổng điểm cân bằng cao nhất</strong> trong tháng<br>Điểm = (% target × 0,4) + (số chai × 0,35) + (tỷ lệ chốt × 0,25) — mỗi tiêu chí chuẩn hóa 0–10 trong nhóm</div>
               </div>
             </div>
             <div class="award">
               <div class="award-ico">🥈</div>
               <div>
                 <div class="award-title">Nhân viên tiến bộ nhất</div>
-                <div class="award-desc">Có sự tăng trưởng rõ rệt so với tháng trước, dù chưa về vị trí số 1</div>
+                <div class="award-desc"><strong>Tổng điểm tăng nhiều nhất so với tháng trước</strong><br>Xét trong nhóm chưa đứng đầu tổng điểm · Ghi nhận nỗ lực cải thiện đều cả 3 mặt</div>
               </div>
             </div>
             <div class="award">
               <div class="award-ico">🤝</div>
               <div>
                 <div class="award-title">Tinh thần đồng đội</div>
-                <div class="award-desc">Hỗ trợ đồng nghiệp, chia sẻ tip, góp phần vào kết quả chung của cả team</div>
+                <div class="award-desc"><strong>Admin/SC trưởng đánh giá:</strong> Chủ động hỗ trợ khi vắng người · Chia sẻ cách bán với đồng nghiệp · Thái độ tích cực trong họp nhanh</div>
               </div>
             </div>
           </div>
